@@ -1,0 +1,50 @@
+[
+    {
+     "id": 1,
+     "nombre": "Leer para escribir",
+     "imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F27685627%40N04%2F14438379024&psig=AOvVaw2v-7cXSNxQy7p5j0dZZvkX&ust=1624314189309000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKCelI6gp_ECFQAAAAAdAAAAABAK",
+     "descripcion": "Dirigido a toda persona interesada en la lectura y en la escritura literaria y audiovisual. El curso propone acercarse a la lectura como método indispensable para llevar adelante la tarea creativa, profundizar sobre las diferentes maneras de acercamiento a un texto y conocer similitudes y diferencias de los distintos géneros literarios. La idea es a que partir de la lectura de cuentos y poesías de autores clásicos y otros menos conocidos se pueda entender cómo se construyen esos relatos para poder encarar con éxito la escritura de los propios. ",
+     "precio": 8900,
+     "duracion": "8 clases"
+    },
+    {
+        "id": 2,
+        "nombre": "Escritura creativa I",
+        "imagen": "",
+        "descripcion": "Dirigido a todas aquellas personas que tengan como objetivo animarse a escribir o profundizar en un tipo de escritura más libre, más descontracturada. La escritura no tiene porqué ser solemne, seria, difícil. Tiene que poder comunicar lo que sentimos, lo que pasa nuestro alrededor o a un personaje. Romper con las frases hechas y los lugares comunes; jugar con las palabras para, a través de ellas, reconocernos. En cada clase se abordará un tema (la creatividad, los narradores, el uso de las descripciones, las escenas, la voz de los otros) a partir de lecturas, ejemplos, videos disparadores y actividades.",
+        "precio": 7200,
+        "duracion": "6 clases"
+    },
+    {
+        "id": 3,
+        "nombre": "Escritura creativa II",
+        "imagen": "",
+        "descripcion": "Este curso está destinado a todas las personas que ya tuvieron un primer acercamiento al trabajo con la escritura, porque tomaron en Escritura Creativa I, vienen de otras carreras o pasaron por la experiencia de un taller.",
+        "precio": 7200,
+        "duracion": "6 clases"
+    },
+    {
+        "id": 4,
+        "nombre": "Redacción periodística",
+        "imagen": "",
+        "descripcion": "Dirigido a docentes, estudiantes, periodistas, productores, responsables de prensa y toda persona vinculada al trabajo con los medios de comunicación.La redacción periodística supone ciertas reglas gramaticales y sintácticas que le son propias. Además, se ajusta a códigos y formatos compartidos por la práctica periodística. Este taller propone una aproximación al oficio del periodista a partir de una práctica que le permita desarrollar las herramientas indispensables para escribir en medios gráficos y electrónicos.",
+        "precio": 9200,
+        "duracion": "10 clases"
+    },
+    {
+        "id": 5,
+        "nombre": "Iniciación a la escritura narrativa",
+        "imagen": "",
+        "descripcion": "Dirigido a al público en general. Este cuerso es una introducción a la escritura narrativa de cuentos y novelas, posee las bases para comenzar a escribir.",
+        "precio": 3200,
+        "duracion": "4 clases"
+    },
+    {
+        "id": 6,
+        "nombre": "Escritura creativa para jóvenes",
+        "imagen": "",
+        "descripcion": "Dirigido a adolescentes, está destinado a jóvenes de 14 a 17 años.  Los alumnos dispondrán de un foro para el grupo en el que podrán comunicarse con sus compañeros y compartir con ellos sus experiencias, sus dudas o sus iniciativas, y también podrán comunicarse a través del correo electrónico con su profesor para consultar cualquier tipo de duda.",
+        "precio": 8200,
+        "duracion": "10 clases"
+    }
+]
