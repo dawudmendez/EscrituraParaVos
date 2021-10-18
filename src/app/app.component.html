@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/img/logo.png" alt="" width="50"  class="d-inline-block align-text-top">
+         Escritura para vos
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+        <a class="nav-link" routerLink="/catalogo">Catálogo</a>
+        <a class="nav-link" routerLink="/registro">Registro</a>
+        <a class="nav-link" routerLink="/login">Login</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container ">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/img/carrousel1.jpg" class="d-block w-100 carrousel" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/img/carrousel2.jpg" class="d-block w-100 carrousel" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/img/carrousel3.jpg" class="d-block w-100 carrousel" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+
+<!-- FOOTER -->
+<section class="bg-light pt-3 pb-3 mt-4">
+  <div class="container pt-3">
+    <div class="row">
+
+      <div class="col-md-4">
+        <div class="navbar-brand">
+          <img src="/assets/img/logo.png" alt="" width="50"  class="d-inline-block align-text-top">
+            Escritura para vos
+        </div>           
+      </div>
+
+      <div class="col-md-8">
+        <p>Sitio desarrollado en Angular para la carrera Professional Fullstack Developer</p>
+        <p><strong>Alumno: </strong>Muhammad Dawud Mendez</p> 
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+
+<div class="container mt-4 ">
+  <h1 class="text-center mb-2 text-secondary">Bienvenidos </h1>
+  <p>Somos un espacio dedicado al estudio de la escritura creativa. Te alentamos a aprender a escribir, escribiendo. A leer, para reconocer la estructura de un texto. A despertar y desarrollar la creatividad. A optimizar las posibilidades del lenguaje y a pensar poéticamente. Motivamos a nuestros estudiantes a seguir sus sueños,emprender y crear.</p>
+  <strong>Algunos de nuestros cursos son: </strong>
+
+  <div class="row">
+    <div *ngFor="let post of listPosts; let i = index" class="col-md-4 mt-4">
+        <div class="card">
+          <img src="/assets/img/imgjson/{{post.imagen}}" alt="" class="card-img-top" style="height: 150px;">
+            <h5 class="card-text text-center">{{ post.nombre}}</h5>
+            <a routerLink="/detalle/{{post.id}}" class="btn btn-secondary btn-sm mb-2">Ver detalle</a>
+        </div>
+    </div>
+  </div>
+  <div class="d-grid gap-2 col-6 mx-auto mt-4">
+    <button class="btn btn-secondary mb-2" type="button" routerLink="/catalogo">Ver catálogo completo</button>
+  </div>
+</div>
+

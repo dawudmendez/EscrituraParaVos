@@ -1,0 +1,20 @@
+<div class="container mt-4">
+    <h1 class="text-center text-secondary">Ingresar </h1>
+    <form [formGroup]="form">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email </label>
+        <input type="email" class="form-control" formControlName="email" aria-describedby=""
+        [class.is-invalid] = "this.form.get('email')?.invalid && this.form.get('email')?.touched"
+        [class.is-valid] = "this.form.get('email')?.valid">
+        <div id="emailHelp" class="invalid-feedback" *ngIf="this.form.get('email')?.invalid">Este campo debe contener un email válido</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" formControlName="password" maxlength="10"
+        [class.is-invalid] = "this.form.get('password')?.invalid && this.form.get('password')?.touched"
+        [class.is-valid] = "this.form.get('password')?.valid">
+        <div id="emailHelp" class="invalid-feedback" *ngIf="this.form.get('password')?.invalid">Este campo es obligatorio</div>
+      </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+</div>
